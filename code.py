@@ -8,10 +8,10 @@ unitConverter = Tk()
 unitConverter.title("Unit Converter")
 unitConverter.geometry('450x305')
 unitConverter.resizable(0, 0)
-# path = "logos.ico"
-# load = Image.open(path)
-# render = ImageTk.PhotoImage(load)
-# unitConverter.iconphoto(False, render)
+path = "logos.ico"
+load = Image.open(path)
+render = ImageTk.PhotoImage(load)
+unitConverter.iconphoto(False, render)
 
 def lconversion():
     lengthConverter = Tk()
